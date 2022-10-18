@@ -32,3 +32,24 @@ class Solution {
         return d.next
     }
 }
+
+//issibsequence
+
+class Solution {
+    func isSubsequence(_ s: String, _ t: String) -> Bool {
+        if s.isEmpty {return true}
+        var i = 0
+        var sArray = Array(s)
+
+        for j in t {
+            if sArray[i] == j {
+                i += 1
+            }
+            if i == s.count {
+                return true
+            }
+        }
+        return false
+   }
+}
+
