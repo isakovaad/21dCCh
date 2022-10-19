@@ -14,3 +14,8 @@ class Solution {
 
 
 <img width="1042" alt="Screen Shot 2022-10-10 at 20 46 31" src="https://user-images.githubusercontent.com/38157887/196254869-871f8f9c-7994-4253-b2ef-fd7ea11a72dc.png">
+
+
+
+
+problem solution 1,2,3,4,5
