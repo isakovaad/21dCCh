@@ -53,3 +53,21 @@ class Solution {
    }
 }
 
+
+class Solution {
+    func pivotIndex(_ nums: [Int]) -> Int {
+        var sum = 0
+        for n in nums {
+            sum += n
+        }
+        var left = 0
+        for i in 0..<nums.count {
+            let right = sum - left - nums[i]
+            if right == left {
+                return i
+            }
+            left += nums[i]
+        }
+        return -1
+    }
+}
